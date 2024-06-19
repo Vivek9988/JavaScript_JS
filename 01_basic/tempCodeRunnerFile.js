@@ -1,1 +1,3 @@
-console.log(name+repoCount+"Value");
+let value = 3 ;
+// let negValue=-value;
+// console.log(negValue);

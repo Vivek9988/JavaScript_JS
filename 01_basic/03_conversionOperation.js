@@ -1,7 +1,7 @@
-// let score ="33"
+let score ="33"
 
-// console.log(typeof score);
-// console.log(typeof(score));
+console.log(typeof score);
+console.log(typeof(score));
 
 // let valurInNumber = Number(score);
 // console.log(typeof valurInNumber);
@@ -58,7 +58,7 @@ console.log(str3);
 console.log(1 + "2");
 console.log("1"+2);
 console.log("1"+ 2+ 2);
-console.log(1+2+"3");
+console.log(1+2+"3");l
 
 
 
