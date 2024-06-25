@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Vivek and java script</h1>
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+
+
+    <script>
+
+        const change1=function(){
+            document.querySelector('h1').innerHTML="start is calling"
+        }
+
+        
+
+        document.querySelector(".start").addEventListener('click',function(){
+         setTimeout(change1,2000);
+        
+        })
+
+        
+
+       const change2 = function () {
+            document.querySelector('h1').innerHTML = "stop is callling"
+        }
+        //const change = setTimeout(textChange, 2000);
+
+        document.querySelector(".stop").addEventListener('click', function () {
+             
+               setTimeout(change2, 2000);
+            })
+    </script>
+</body>
+
+</html>
