@@ -1,12 +1,17 @@
-let heading =document.getElementById("heading");
-console.dir(heading);
-let h1=heading.tagName;
-let h2=heading.innerText;
-console.log(h2)
-console.log(h1)
+let heading =document.getElementById("tittle")
+console.log(heading);
 
 
-let vivek=document.getElementsByClassName("vivek");
-//console.log(vivek)
+let vivek=document.getElementsByClassName("vivek");   // it return a html collection
+console.log(vivek)
+
+
+let vivek1 = document.querySelectorAll("vivek");   // it return the node list which is different from node list
+console.log(vivek1)
+
+
+
+
+
 
 
