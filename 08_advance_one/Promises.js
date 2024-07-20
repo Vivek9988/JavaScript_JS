@@ -3,13 +3,14 @@ const promiseOne = new Promise(function (resolve, reject) {
     // DB calls, cryptography, network
     setTimeout(function () {
         console.log('Async task is compelete');
-        resolve()
-    }, 1000)
+        reject()
+    }, 3000)
 })
 
 promiseOne.then(function () {
     console.log("Promise consumed");
-})
+}).catch((error) => console.log(error))
+
 
 new Promise(function (resolve, reject) {
     setTimeout(function () {
@@ -99,4 +100,4 @@ fetch('https://api.github.com/users/hiteshchoudhary')
     .catch((error) => console.log(error))
 
 // promise.all
-// yes this is also available, kuch reading aap b kro.
+// yes this is also available, kuch reading aap b kro. 
