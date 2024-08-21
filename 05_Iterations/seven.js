@@ -1,14 +1,14 @@
-// const myNumber=[1,2,3,4,5,6,7,8,9,10];
+const myNumber=[1,2,3,4,5,6,7,8,9,10];
 
-// const number1 = myNumber.map((num)=>{
+const number1 = myNumber.map((num)=>{
    
-//     console.log(num);
-// }
+    console.log(num);
+}
      
  
-// );
-// // console.log(number1);
-// console.log(myNumber)
+);
+// console.log(number1);
+console.log(myNumber)
 
 
 // // // method 2 to do
@@ -32,13 +32,13 @@
 //     .filter((num) => num >= 40)
 
 // //console.log(newNums);
-const nums = new Array(100).fill(0).map((_, i) => {
-    return {
-        index: i,
-        isTrue: i === 10
-    }
+// const nums = new Array(100).fill(0).map((_, i) => {
+//     return {
+//         index: i,
+//         isTrue: i === 10
+//     }
    
-});
-console.log(nums);
+// });
+// console.log(nums);
 
  

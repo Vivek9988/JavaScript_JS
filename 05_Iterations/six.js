@@ -41,7 +41,7 @@ newNumss.forEach((num) => {
 console.log(newNumss);
 
 
-
+// Example of Filter 
 
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
@@ -55,9 +55,20 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
 ];
 
+
+// Example with for each
+
+let ite = books.forEach((bks)=>{
+    if(bks.genre==='History'){
+        console.log(bks)
+
+    }
+   
+})
+
 let userBooks = books.filter((bk) => bk.genre === 'History')
 
 userBooks = books.filter((bk) => {
     return bk.publish >= 1995 && bk.genre === "History"
 })
-console.log(userBooks);
+//console.log(userBooks)
