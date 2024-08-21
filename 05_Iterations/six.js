@@ -1,28 +1,46 @@
-// const coding = ["js", "ruby", "java", "python", "cpp"]
+// For each -------
+const myNumsss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const values = myNumsss.forEach((item) => {
+    if (item > 4) {                // we write the if else like this in for each
+        //console.log(item)
+    }
+
+    //return item                 // but we can't like this beacuse it does'nt return anythinf
+})
+
+//console.log(values);             //    it does'nt return any value , it will show undefined
 
 
-// const values = coding.forEach( (item) => {
-//     //console.log(item);
-//     return item
-// } )
-
-// console.log(values);    // it does'nt return any value
+// Filter function  -------
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums = myNums.filter( (num) => {      // we have to write return if we are writing it in curly brace.
-//     return num > 4
-// } )
+const newNums = myNums.filter((num) => {      // we have to write return if we are writing it in curly brace.
+    if (num > 4) {
+        console.log(num)
+    }
 
-// const newNums = []
+    return num>4;
 
-// myNums.forEach( (num) => {
-//     if (num > 4) {
-//         newNums.push(num)
-//     }
-// } )
 
-// console.log(newNums);
+})
+console.log(newNums);
+
+
+
+// Applying the condition by if else in forEach-----
+
+const newNumss = []
+
+newNumss.forEach((num) => {
+    if (num > 4) {
+        newNumss.push(num)
+    }
+})
+
+console.log(newNumss);
+
+
 
 
 const books = [
