@@ -16,12 +16,17 @@
 //gf()
 //  vivek();
 
-let heroPower={
-    thor:'hello'
+// let heroPower={
+//     thor:'hello'
+// }
+
+// console.log(heroPower.thor);
+
+
+const arr=[1,2,3,4,5,6];
+for(let i = 0;i<arr.length;i++){
+    console.log(arr[i]);
 }
-
-console.log(heroPower.thor);
-
 
 
 
