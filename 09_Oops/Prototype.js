@@ -21,3 +21,9 @@ Object.prototype.vivek=function(){
 
 heroPower.vivek();
 myHeros.vivek();
+
+/// to make a trim function 
+ String.prototype.trueLength=function(){
+    console.log(`the trim length is ${this.trim().length}`)
+ }
+"vivek   ".trueLength()
