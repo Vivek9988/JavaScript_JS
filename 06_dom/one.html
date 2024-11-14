@@ -2,24 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dom learning</title>
-    <link rel="stylesheet" href="one.css"/>
-</head> class="list-item"
-<body>
-
-    <h1 id="tittle" class="heading">DOM Demo by Vivek Raj </h1>
-    <h4 class="vivek">Vivek Raj</h4>
-
-
-    <ul >
-        <li class="list-item">one</li>
-        <li class="list-item">two</li>
-        <li class="list-item">three</li>
-        <li class="list-item">four</li>
-    </ul>
-
-
-    <button>Click me!</button>
-    <script src="one.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color:#212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+    <script>
+        const parent = document.querySelector(".parent");
+        console.log(parent);
+        console.log(parent.children)
+        
+    </script>
+    
 </body>
 </html>
