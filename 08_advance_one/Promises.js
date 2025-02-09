@@ -107,3 +107,25 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 async function getAllUsers(){
 }
 */
+
+
+//some wrong formate
+
+const promiseone = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('hello')
+        resolve()
+    }, 2000);
+})
+
+
+promiseOne
+    .then(() => promiseone)
+    .then(() => promiseone)  
+
+    // this will not return the hello twice and after 2 sec delay, 
+    // because we are returning promiseone in the next .then which is a already
+    // a resolved promise.
+
+    // for solving this, we have to wrap it in a function and pass the function 
+    // so everytime the function will create the new promise and then it will execute correctly.

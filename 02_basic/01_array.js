@@ -35,5 +35,5 @@ console.log("B ", myArr);
 
 
 const myn2 = myArr.splice(1, 3)   // change the original array
-console.log("C ", myArr);
+console.log("C ", myArr);         //left whatever not iin the splice
 console.log(myn2);

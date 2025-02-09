@@ -3,13 +3,13 @@
 
 // object literals
 
-const mySym = Symbol("key1")
+const mySym = Symbol("key1") // it is of the symbol type
 
 
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1",                 // the key is now of the symbol type, which is due to refering the Symbol mySum
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -22,7 +22,7 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "hitesh@chatgpt.com"   // change in the original value
 // Object.freeze(JsUser)
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);

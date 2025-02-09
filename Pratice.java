@@ -1,35 +1,20 @@
 public class Pratice{
     public static void main (String args[]){
-        // int a=10;
-        // a=9;
-
-        // String ste= "vivek";
-        // ste="vsa";
-        
-        // char x ='b';
-        // char y=x;
-        // y='c';
-        // System.out.println(x);
-        // System.out.println(y);
-
-        // int a = 10;
-        //   a=9;
-        //   a=0;
-        //   a=8;
-        // System.out.println(a);
-        //   String str = "vivek";
-        //   str ="hello";
-        //   System.out.println(str);
-
-        String str= "vivek";
-        System.out.println(str.toUpperCase());
-
-         int a=10;
-         System.out.println(a);
-         System.out.println(a+1);
-         
+        int arr[] = { 1, 2, 3, 4, 5, 6, };
+        int arr2 []=new int[arr.length];
+        for (int i = 0 ; i< arr.length;i++){
+              arr2[i]=arr[i];
+              
+        }
 
         
+        // for (int num : arr2) {
+        //     System.out.print(num + " "); // Output: 1 2 3 4 5 6
+        // }
+        // String vivek = "singh";
+        // String singh ="raj";
+        // System.out.println(vivek+singh);
+
 
     }
 
