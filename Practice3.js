@@ -1,20 +1,21 @@
-const promiseOne= new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        console.log('hello')
-        resolve()
-    }, 2000);
-})
+const user={
+    name:"vivek",
+    tittle:"singh",
+    age:21
+};
+
+const user2={
+    study:"js",
+    mode:"laptop",
+   // __proto__:user
+
+};
+
+//console.log(user2.name);
+//user.__proto__=user2
+// console.log(user.study);
+Object.setPrototypeOf(user,user2)
+console.log(user2.s);
 
 
-promiseOne
-.then(()=>promiseOne)
-.then(() => promiseOne)
-// async function vivek() {
-//     await promiseOne;
-//     // console.log('first')
-//     await promiseOne;
-//     // console.log('second')
-    
-// }
 
-// vivek()

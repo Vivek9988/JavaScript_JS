@@ -124,7 +124,7 @@ promiseOne
     .then(() => promiseone)  
 
     // this will not return the hello twice and after 2 sec delay, 
-    // because we are returning promiseone in the next .then which is a already
+    // because we are returning promiseone in the next .then, which is a already
     // a resolved promise.
 
     // for solving this, we have to wrap it in a function and pass the function 
